@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/learning.png') }}" type="image/x-icon"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='day.css') }}">
+</head>
+
+
+<body>
+    <main>
+        <div class="day-1 componentSpacing">
+            <div class="day-1Container screenSize">
+                <div class="headingBody grid-1">
+                    <div class="headingBlock dflex">
+                        <div class="headingBox dflex">
+                            <h3>DAY 1</h3>
+                        </div>
+                        <div class="homeBox dflex">
+                            <a href="{{ url_for('home') }}">
+                                <button class="primary_button">HOME</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dayBody grid-1">
+                    <div class="dayBlock">
+                        <div class="dayBox dflex">
+                            <h1> COMPONENTS</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

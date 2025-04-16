@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Diary</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/images/learning.png') }}" type="image/x-icon"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='learning.css') }}">
+</head>
+
+<body>
+
+    <main>
+        <div class="learning componentSpacing">
+            <div class="learningContainer screenSize">
+                <div class="headingBody grid-1">
+                    <div class="headingBlock">
+                        <div class="headingBox dflex">
+                            <h1>HTML & CSS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="learningBody grid-5">
+                    <div class="learningBlock dflex">
+                        <div class="learningBox dflex-col">
+                            <div class="cardHeader dflex">
+                                <h2>1</h2>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <p>Component</p>
+                                <a href="{{ url_for('day_1') }}">
+                                    <button class="primary_button">DAY 1</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learningBlock dflex">
+                        <div class="learningBox dflex-col">
+                            <div class="cardHeader dflex">
+                                <h2>2</h2>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <p>Component Container</p>
+                                <button class="primary_button">DAY 2</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learningBlock dflex">
+                        <div class="learningBox dflex-col">
+                            <div class="cardHeader dflex">
+                                <h2>3</h2>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <p>Row & Column</p>
+                                <button class="primary_button">DAY 3</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="learningBlock dflex">
+                        <div class="learningBox dflex-col">
+                            <div class="cardHeader dflex">
+                                <h2>4</h2>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <p>Sub Column</p>
+                                <button class="primary_button">DAY 4</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="learningBlock dflex">
+                        <div class="learningBox dflex-col">
+                            <div class="cardHeader dflex">
+                                <h2>5</h2>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <p>Content Container</p>
+                                <button class="primary_button">DAY 5</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
